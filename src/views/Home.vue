@@ -1,7 +1,8 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <HelloWorld />
+  <TheCarousel></TheCarousel>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import TheCarousel from '@/components/TheCarousel.vue';
 </script>
