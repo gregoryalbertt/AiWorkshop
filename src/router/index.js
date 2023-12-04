@@ -1,6 +1,6 @@
 // Composables
 import { createRouter, createWebHistory } from "vue-router";
-
+import TheSpeakers from "@/views/TheSpeakers.vue";
 const routes = [
   {
     path: "/",
@@ -17,7 +17,7 @@ const routes = [
       {
         path: "speakers",
         name: "Speakers",
-        component: () => import("@/views/TheSpeakers.vue"),
+        component: TheSpeakers,
       },
       {
         path: "schedule",
