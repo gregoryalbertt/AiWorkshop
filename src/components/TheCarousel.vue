@@ -6,21 +6,18 @@
             <section>
 
                 <v-row>
-                    <div class="text-h2 text-center mx-auto font-weight-black">
+                    <div class="text-h3 text-center mx-auto font-weight-black">
                         AI EDUCATION DAY
                     </div>
                 </v-row>
 
-                <v-row class="text-center mx-auto">
-                    <div class="text-h4 text-center">
-                        AT
-                    </div>
-                    <div class="text-h4 text-center font-weight-black">
-                        FREIE UNIVERSITÄT BERLIN
+                <v-row class="text-center">
+                    <div class="text-h5 text-center font-weight-black mx-auto">
+                        AT FREIE UNIVERSITÄT BERLIN
                     </div>
                 </v-row>
                 <v-row>
-                    <div class="text-h5 text-center mx-auto">
+                    <div class="text-h6 text-center mx-auto">
                         with Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speake
                     </div>
                 </v-row>
@@ -43,18 +40,18 @@
 
             <section>
                 <v-row>
-                    <div class="text-h4 text-center mx-auto font-weight-black">
+                    <div class="text-h4 font-weight-black">
                         LOCAL
                     </div>
                 </v-row>
 
                 <v-row>
-                    <div class="text-h5 text-center mx-auto">
+                    <div class="text-h5 text-center">
                         Session I: Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
-                    <div class="text-h5 text-center mx-auto">
+                    <div class="text-h5 text-center">
                         Session II: Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
@@ -63,7 +60,7 @@
             <section>
                 <v-row>
                     <v-col>
-                        <div class="text-h5 text-right mx-auto font-weight-black">
+                        <div class="text-h5 text-center mx-auto font-weight-black">
                             FUNDED BY
                         </div>
                     </v-col>
@@ -134,22 +131,24 @@ export default {
 <style scoped>
 .container {
     color: rgb(255, 255, 255);
-    margin: 20%;
+    margin: 10%;
 }
 
 .text-format {
     color: rgb(0, 0, 0);
-    background-color: rgba(245, 245, 245, 0.75);
-    margin-top: 10%;
+    background-color: rgba(245, 245, 245, 0.9);
+    margin-top: 5%;
     text-align: center;
 }
 
 section {
-    margin: 4rem;
+    margin: 2rem;
+    padding: 1rem;
 }
 
 div {
     text-align: center;
+    padding: 0.01rem;
 }
 
 row {
