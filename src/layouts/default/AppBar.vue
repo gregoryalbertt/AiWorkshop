@@ -50,9 +50,9 @@
             <router-link class="text-decoration-none" :to="{ name: 'Schedule' }" v-slot="{ isActive }">
               <a :class="{ 'is-bold': isActive }"> SCHEDULE </a>
             </router-link>
-            <router-link class="text-decoration-none" :to="{ name: 'Speakers' }" v-slot="{ isActive }">
+            <!-- <router-link class="text-decoration-none" :to="{ name: 'Speakers' }" v-slot="{ isActive }">
               <a :class="{ 'is-bold': isActive }"> SPEAKERS </a>
-            </router-link>
+            </router-link>-->
             <router-link class="text-decoration-none" :to="{ name: 'Subscribe' }" v-slot="{ isActive }">
               <a :class="{ 'is-bold': isActive }"> REGISTER </a>
             </router-link>
