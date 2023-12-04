@@ -105,12 +105,10 @@ bring-back {
 a{
   padding: 1rem;
   color: black;
-  font-family: "fira sans";
 }
 .router-link-exact-active {
   padding: 1rem;
   color: black;
-  font-family: "fira sans";
   font-weight: bold;
 }
 
