@@ -3,16 +3,16 @@
         <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg">
             <v-row>
 
-                <v-col cols="12" sm="6">
-                    <v-card class="ma-10 pa-8">
+                <v-col class="pr-0" cols="12" sm="6">
+                    <v-card class="mt-10 ml-10 mr-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session I
-                        </div> 
+                        </div>
 
                         <div class="text-subtitle-1 font-weight-black text-center">
                             Königin-Luise-Straße 24/26, Freie Universität Berlin
                         </div><br>
-                        
+
                         <div class="text-h6">
                             09:30 - 10:00
                         </div>
@@ -40,14 +40,15 @@
                         <div class="font-weight-black">
                             Experiences from AI in teacher education - AI Unplugged. (German) <br>
                         </div>
-                        <div> 
+                        <div>
                             Prof. Dr. Tilman Michaeli - Computing Education Research Group - Technische Universität München
                         </div><br>
                         <div class="text-h6">
                             10:50 - 11:10
                         </div>
                         <div class="font-weight-black">
-                            AI is changing the disciplines: Why and what should university students learn about AI? (English) <br>
+                            AI is changing the disciplines: Why and what should university students learn about AI?
+                            (English) <br>
                         </div>
                         <div>
                             Kamilla Tenório - Researcher - Computing Education Research Group - Freie Universität Berlin
@@ -68,7 +69,7 @@
                             Responsible AI (German) <br>
                         </div>
                         <div>
-                            Prof. Dr. Claudia Müller-Birn -  Human-Centered Computing (HCC) - Freie Universität Berlin
+                            Prof. Dr. Claudia Müller-Birn - Human-Centered Computing (HCC) - Freie Universität Berlin
                         </div><br>
                         <div class="text-h6">
                             11:50 - 12:00
@@ -78,11 +79,11 @@
                         </div><br>
                     </v-card>
                 </v-col>
-                <v-col cols="12" sm="">
-                    <v-card class="ma-10 pa-8">
+                <v-col class="pl-0" cols="12" sm="6">
+                    <v-card class="mt-10 mr-10 ml-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session II
-                        </div> 
+                        </div>
 
                         <div class="text-subtitle-1 font-weight-black text-center">
                             Fabeckstraße 35 - Room 001, Freie Universität Berlin
@@ -96,9 +97,10 @@
                             "Learning Designs in the Time of Artificial Intelligence and Machine Learning" <br>
                         </div>
                         <div>
-                            Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University of Pennsylvania
+                            Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University
+                            of Pennsylvania
                         </div><br>
-                        
+
                         <div class="text-h6">
                             15:15 -16:00
                         </div>
