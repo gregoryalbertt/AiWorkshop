@@ -4,41 +4,29 @@
 
     <v-menu>
       <template v-slot:activator="{ props }">
-        <v-btn color="primary" v-bind="props">
-          <template v-slot:prepend>
-            <v-app-bar-nav-icon>
-            </v-app-bar-nav-icon>
-          </template>
-        </v-btn>
+        <v-app-bar-nav-icon class="d-lg-none" v-bind="props">
+        </v-app-bar-nav-icon>
       </template>
       <v-list>
         <v-list-item>
-          <v-list-item-title>
-            <router-link :to="{ name: 'Home' }">
-              Home
-            </router-link>
-          </v-list-item-title>
+          <router-link :to="{ name: 'Home' }">
+            Home
+          </router-link>
         </v-list-item>
         <v-list-item>
-          <v-list-item-title>
-            <router-link :to="{ name: 'Schedule' }">
-              Schedule
-            </router-link>
-          </v-list-item-title>
+          <router-link :to="{ name: 'Schedule' }">
+            Schedule
+          </router-link>
         </v-list-item>
         <v-list-item>
-          <v-list-item-title>
-            <router-link :to="{ name: 'Speakers' }">
-              Speakers
-            </router-link>
-          </v-list-item-title>
+          <router-link :to="{ name: 'Speakers' }">
+            Speakers
+          </router-link>
         </v-list-item>
         <v-list-item>
-          <v-list-item-title>
-            <router-link :to="{ name: 'Subscribe' }">
-              Register
-            </router-link>
-          </v-list-item-title>
+          <router-link :to="{ name: 'Subscribe' }">
+            Register
+          </router-link>
         </v-list-item>
       </v-list>
     </v-menu>
@@ -53,7 +41,7 @@
             </v-btn> -->
           </v-app-bar-title>
         </v-col>
-        <v-col cols="12" sm="11">
+        <v-col cols="12" sm="12">
           <div class="row mx-auto d-flex justify-center">
 
             <router-link class="text-decoration-none" :to="{ name: 'Home' }">
