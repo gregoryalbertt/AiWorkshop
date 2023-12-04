@@ -1,30 +1,5 @@
 <template>
-    <!-- <v-carousel cycle height="100%" hide-delimiter-background show-arrows="hover"> -->
-    <!-- <v-carousel-item v-for="(slide, i) in slides" :key="i">
-            <v-sheet :color="colors[i]" height="100%">
-                <div class="d-flex fill-height justify-center align-center">
-                    <div class="text-h2">
-                        {{ slide }} Slide
-                    </div>
-                </div>
-            </v-sheet>
-        </v-carousel-item> -->
-
-    <!-- <v-carousel-item>
-            <v-card cover height="100%" image="/fu-university.jpeg">
-                <div class="text-h1 text-center">
-                    TITLE
-                </div>
-            </v-card>
-        </v-carousel-item> -->
-
-    <!-- </v-carousel> -->
     <v-card cover height="100%" image="/fu-university.jpeg">
-
-
-
-
-        <!-- <v-sheet :rounded=rounded :elevation="1" :height="200" :width="300" color="rgb(255,255,255,0.1)"></v-sheet> -->
 
         <base-card class="text-format">
 
@@ -36,13 +11,13 @@
                     </div>
                 </v-row>
 
-                <v-row>
-                    <span class="text-h4 text-center mx-auto">
+                <v-row class="text-center mx-auto">
+                    <div class="text-h4 text-center">
                         AT
-                    </span>
-                    <span class="text-h4 text-center mx-auto">
+                    </div>
+                    <div class="text-h4 text-center font-weight-black">
                         FREIE UNIVERSITÄT BERLIN
-                    </span>
+                    </div>
                 </v-row>
                 <v-row>
                     <div class="text-h5 text-center mx-auto">
@@ -88,7 +63,7 @@
             <section>
                 <v-row>
                     <v-col>
-                        <div class="text-h5">
+                        <div class="text-h5 text-right mx-auto font-weight-black">
                             FUNDED BY
                         </div>
                     </v-col>
@@ -166,9 +141,18 @@ export default {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.75);
     margin-top: 10%;
+    text-align: center;
 }
 
 section {
     margin: 4rem;
+}
+
+div {
+    text-align: center;
+}
+
+row {
+    text-align: center;
 }
 </style>
