@@ -85,7 +85,7 @@
                         </div> 
 
                         <div class="text-subtitle-1 font-weight-black text-center">
-                            Fabeckstraße 35 - Raum 001, Freie Universität Berlin
+                            Fabeckstraße 35 - Room 001, Freie Universität Berlin
                         </div><br>
 
                         <div class="text-h6">
