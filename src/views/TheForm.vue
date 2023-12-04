@@ -70,8 +70,8 @@ const select = useField('select')
 const checkbox = useField('checkbox')
 
 const items = ref([
-    'Session I (Morning): 10 a.m to 12 p.m',
-    'Session II (Afternoon): 2:15 p.m to 5 p.m  (Keynote Speaker: Professor Yasmin B. Kafai)',
+    'Session I (Morning): 10 a.m. to 12 p.m.',
+    'Session II (Afternoon): 2:15 p.m. to 5 p.m.  (Keynote Speaker: Professor Yasmin B. Kafai)',
     'Session I and Session II',
 ])
 
