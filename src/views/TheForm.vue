@@ -64,10 +64,8 @@ const { handleSubmit, handleReset } = useForm({
     },
 })
 const name = useField('name')
-const phone = useField('phone')
 const email = useField('email')
 const select = useField('select')
-const checkbox = useField('checkbox')
 
 const items = ref([
     'Session I (Morning): 10 a.m. to 12 p.m.',
