@@ -4,7 +4,7 @@
             <v-row>
 
                 <v-col class="pr-0" cols="12" sm="6">
-                    <v-card class="mt-10 ml-10 mr-5 pa-8">
+                    <v-card class="text-format mt-10 ml-10 mr-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session I
                         </div>
@@ -80,7 +80,7 @@
                     </v-card>
                 </v-col>
                 <v-col class="pl-0" cols="12" sm="6">
-                    <v-card class="mt-10 mr-10 ml-5 pa-8">
+                    <v-card class="text-format mt-10 mr-10 ml-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session II
                         </div>
@@ -132,6 +132,12 @@ export default {
 <style scoped>
 .background {
     background-color: white;
+}
+
+.text-format {
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.941);
+    margin-top: 5%;
 }
 
 span {

@@ -7,7 +7,7 @@
 
             <base-card>
 
-                <v-card class="pa-md-10 mt-10 mx-lg-auto">
+                <v-card class="text-format pa-md-10 mt-10 mx-lg-auto">
                     <div ref="subscribe" class="text-h2 font-weight-black text-center mb-4 pb-4">
                         Registration
                     </div>
@@ -84,3 +84,14 @@ const submit = handleSubmit(values => {
         });
 })
 </script>
+
+<style scoped>
+
+.text-format {
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.97);
+    margin-top: 5%;
+    text-align: center;
+}
+
+</style>
