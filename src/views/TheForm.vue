@@ -1,33 +1,46 @@
 <template>
-    <div ref="subscribe" class="text-h2 font-weight-black text-center ma-4 pa-4">
-        Subscribe Here
-    </div>
-    <v-card class="pa-md-4 mx-lg-auto">
-        <form @submit.prevent="submit">
-            <v-text-field v-model="name.value.value" :counter="10" :error-messages="name.errorMessage.value"
-                label="Name"></v-text-field>
+    <v-card color="rgb(0,0,0, 0.5)" class="h-100">
+        <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg">
 
-            <v-text-field v-model="phone.value.value" :counter="7" :error-messages="phone.errorMessage.value"
-                label="Phone Number"></v-text-field>
 
-            <v-text-field v-model="email.value.value" :error-messages="email.errorMessage.value"
-                label="E-mail"></v-text-field>
 
-            <v-select v-model="select.value.value" :items="items" :error-messages="select.errorMessage.value"
-                label="Select a turn"></v-select>
 
-            <v-checkbox v-model="checkbox.value.value" :error-messages="checkbox.errorMessage.value" value="1" label="Agree"
-                type="checkbox"></v-checkbox>
+            <base-card>
 
-            <v-btn class="me-4" type="submit">
-                submit
-            </v-btn>
+                <v-card class="pa-md-10 mt-10 mx-lg-auto">
+                    <div ref="subscribe" class="text-h2 font-weight-black text-center mb-4 pb-4">
+                        Register Here!
+                    </div>
+                    <form @submit.prevent="submit">
+                        <v-text-field v-model="name.value.value" :counter="10" :error-messages="name.errorMessage.value"
+                            label="Name"></v-text-field>
 
-            <v-btn @click="handleReset">
-                clear
-            </v-btn>
-        </form>
+                        <v-text-field v-model="phone.value.value" :counter="7" :error-messages="phone.errorMessage.value"
+                            label="Phone Number"></v-text-field>
 
+                        <v-text-field v-model="email.value.value" :error-messages="email.errorMessage.value"
+                            label="E-mail"></v-text-field>
+
+                        <v-select v-model="select.value.value" :items="items" :error-messages="select.errorMessage.value"
+                            label="Select a turn"></v-select>
+
+                        <v-checkbox v-model="checkbox.value.value" :error-messages="checkbox.errorMessage.value" value="1"
+                            label="Agree" type="checkbox"></v-checkbox>
+
+                        <v-btn class="me-4" type="submit">
+                            submit
+                        </v-btn>
+
+                        <v-btn @click="handleReset">
+                            clear
+                        </v-btn>
+                    </form>
+
+                </v-card>
+
+
+            </base-card>
+        </v-img>
     </v-card>
 </template>
 
@@ -35,6 +48,7 @@
 import { ref } from 'vue'
 import { useField, useForm } from 'vee-validate'
 import axios from 'axios'
+import BaseCard from '@/layouts/default/BaseCard.vue';
 
 const { handleSubmit, handleReset } = useForm({
     validationSchema: {
