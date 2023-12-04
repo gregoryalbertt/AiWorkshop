@@ -9,30 +9,24 @@
 
                 <v-card class="pa-md-10 mt-10 mx-lg-auto">
                     <div ref="subscribe" class="text-h2 font-weight-black text-center mb-4 pb-4">
-                        Register Here!
+                        Registration
                     </div>
                     <form @submit.prevent="submit">
                         <v-text-field v-model="name.value.value" :counter="10" :error-messages="name.errorMessage.value"
                             label="Name"></v-text-field>
 
-                        <v-text-field v-model="phone.value.value" :counter="7" :error-messages="phone.errorMessage.value"
-                            label="Phone Number"></v-text-field>
-
                         <v-text-field v-model="email.value.value" :error-messages="email.errorMessage.value"
                             label="E-mail"></v-text-field>
 
                         <v-select v-model="select.value.value" :items="items" :error-messages="select.errorMessage.value"
-                            label="Select a turn"></v-select>
-
-                        <v-checkbox v-model="checkbox.value.value" :error-messages="checkbox.errorMessage.value" value="1"
-                            label="Agree" type="checkbox"></v-checkbox>
+                            label="In which session are you going to participate?"></v-select>
 
                         <v-btn class="me-4" type="submit">
-                            submit
+                            Submit
                         </v-btn>
 
                         <v-btn @click="handleReset">
-                            clear
+                            Clear
                         </v-btn>
                     </form>
 
@@ -57,11 +51,6 @@ const { handleSubmit, handleReset } = useForm({
 
             return 'Name needs to be at least 2 characters.'
         },
-        phone(value) {
-            if (value?.length > 9 && /[0-9-]+/.test(value)) return true
-
-            return 'Phone number needs to be at least 9 digits.'
-        },
         email(value) {
             if (/^[a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(value)) return true
 
@@ -72,11 +61,6 @@ const { handleSubmit, handleReset } = useForm({
 
             return 'Select an item.'
         },
-        checkbox(value) {
-            if (value === '1') return true
-
-            return 'Must be checked.'
-        },
     },
 })
 const name = useField('name')
@@ -86,9 +70,9 @@ const select = useField('select')
 const checkbox = useField('checkbox')
 
 const items = ref([
-    'Whole day',
-    'Moorning',
-    'Afternoon',
+    'Session I (Morning): 10 a.m to 12 p.m',
+    'Session II (Afternoon): 2:15 p.m to 5 p.m',
+    'Session I and Session II',
 ])
 
 const submit = handleSubmit(values => {
