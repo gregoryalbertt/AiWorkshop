@@ -1,6 +1,6 @@
 <template>
-    <v-card color="rgb(0,0,0, 0.5)" class="h-100">
-        <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg">
+    <v-main class="background-image">
+        <v-container>
             <base-card>
                 <v-card class="text-format  rounded-lg rounded-md-xl pa-8 ma-4 pa-md-10 mt-10 mx-lg-auto">
                     <div ref="subscribe" class="text-h4 text-lg-h2 font-weight-black text-center mb-4 pb-4">
@@ -27,8 +27,8 @@
 
                 </v-card>
             </base-card>
-        </v-img>
-    </v-card>
+        </v-container>
+    </v-main>
 </template>
 
 <script setup>
@@ -79,6 +79,17 @@ const submit = handleSubmit(values => {
 </script>
 
 <style scoped>
+
+.background-image {
+  background-image: url('/fu-university.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
 .text-format {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.97);

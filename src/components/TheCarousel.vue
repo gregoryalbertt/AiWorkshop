@@ -1,6 +1,6 @@
 <template>
-    <v-card cover height="100%" image="/fu-university.jpeg">
-
+   <v-main class="background-image">
+        <v-container>
         <base-card class="text-format gr-10 gr-lg-10 mt-sm-16  mt-lg-16 mx-lg-auto">
 
             <section>
@@ -19,7 +19,7 @@
                 <v-row>
 
                     <div class="text-body text-center mx-auto">
-                        With Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speake
+                        with Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speaker
 
                     </div>
                 </v-row>
@@ -49,12 +49,12 @@
 
                 <v-row>
                     <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
-                        Session I: Königin-Luise-Str. 24/26
+                        Session I (Morning): Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
                     <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
-                        Session II: Fabeckstraße 35 - Room 001
+                        Session II (Afternoon): Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
             </section>
@@ -114,7 +114,8 @@
 
 
 
-    </v-card>
+    </v-container>
+    </v-main>
 </template>
 
 <script>
@@ -134,6 +135,16 @@ export default {
 .container {
     color: rgb(255, 255, 255);
     margin: 10%;
+}
+
+.background-image {
+  background-image: url('/fu-university.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
 }
 
 .text-format {
