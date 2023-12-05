@@ -1,37 +1,45 @@
 <template>
     <v-card cover height="100%" image="/fu-university.jpeg">
 
-        <base-card class="text-format">
+        <base-card class="text-format gr-10 gr-lg-10 mt-sm-16  mt-lg-16 mx-lg-auto">
 
             <section>
 
                 <v-row>
-                    <div class="text-h3 text-center mx-auto font-weight-black">
+                    <div class="text-h4 text-md-h4 text-lg-h3 text-center mx-auto font-weight-black">
                         AI EDUCATION DAY
                     </div>
                 </v-row>
 
                 <v-row class="text-center">
-                    <div class="text-h6 text-center font-weight-bold mx-auto">
+ <div class="text-h5 text-md-h4 text-lg-h3 text-center font-weight-black mx-auto">
                         AT FREIE UNIVERSITÄT BERLIN
                     </div>
                 </v-row>
                 <v-row>
-                    <div class="text-subtitle-1 text-center mx-auto">
-                        with Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speaker
+
+                    <div class="text-body text-center mx-auto">
+                        With Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speake
+
                     </div>
                 </v-row>
             </section>
 
             <section>
                 <v-row>
-                    <div class="text-h5 text-center mx-auto font-weight-black">
+
+                    <div class="text-h5 text-md-h4 text-lg-h4 text-center mx-auto font-weight-black">
+
+
+
                         JANUARY 18TH, 2024
                     </div>
                 </v-row>
 
                 <v-row>
-                    <div class="text-h6 text-center mx-auto">
+
+                    <div class="text-h5 text-md-h4 text-lg-h3 text-center mx-auto">
+
                         09:30 a.m to 05:30pm
                     </div>
                 </v-row>
@@ -40,18 +48,25 @@
 
             <section>
                 <v-row>
-                    <div class="text-h5 font-weight-bold">
+
+                    <div class="text-h5 text-md-h4 text-lg-h4 font-weight-black">
+
+
                         LOCAL
                     </div>
                 </v-row>
 
                 <v-row>
-                    <div class="text-h6 text-center">
+
+                    <div class="text-body text-md-h6 text-lg-h5 text-center">
+
                         Session I: Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
-                    <div class="text-h6 text-center">
+
+                    <div class="text-body text-md-h6 text-lg-h5 text-center">
+
                         Session II: Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
@@ -60,7 +75,9 @@
             <section>
                 <v-row>
                     <v-col>
-                        <div class="text-h6 text-center mx-auto font-weight-black">
+
+                        <div class="text-body-2 text-md-h6 text-lg-h5 text-center mx-auto font-weight-black">
+
                             FUNDED BY
                         </div>
                     </v-col>
@@ -137,8 +154,10 @@ export default {
 .text-format {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.9);
-    margin-top: 5%;
+    margin-top: 30%;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 section {
