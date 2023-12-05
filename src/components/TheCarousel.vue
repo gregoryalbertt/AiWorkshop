@@ -19,7 +19,7 @@
                 <v-row>
 
                     <div class="text-body text-center mx-auto">
-                        With Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speake
+                        with Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speaker
 
                     </div>
                 </v-row>
@@ -49,12 +49,12 @@
 
                 <v-row>
                     <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
-                        Session I: Königin-Luise-Str. 24/26
+                        Session I (Morning): Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
                     <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
-                        Session II: Fabeckstraße 35 - Room 001
+                        Session II (Afternoon): Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
             </section>
