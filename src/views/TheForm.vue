@@ -1,7 +1,6 @@
 <template>
     <v-main class="background-image">
         <v-container>
-            <base-card>
                 <v-card class="text-format  rounded-lg rounded-md-xl pa-8 ma-4 pa-md-10 mt-10 mx-lg-auto">
                     <div ref="subscribe" class="text-h4 text-lg-h2 font-weight-black text-center mb-4 pb-4">
                         Registration
@@ -26,7 +25,6 @@
                     </form>
 
                 </v-card>
-            </base-card>
         </v-container>
     </v-main>
 </template>
@@ -93,5 +91,6 @@ const submit = handleSubmit(values => {
 .text-format {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.97);
+    max-width: 50rem;
 }
 </style>
