@@ -2,8 +2,8 @@
     <v-card color="rgb(0,0,0, 0.5)" class="h-100">
         <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg">
             <base-card>
-                <v-card class="text-format  rounded-xl pa-md-10 mt-10 mx-lg-auto">
-                    <div ref="subscribe" class="text-h2 font-weight-black text-center mb-4 pb-4">
+                <v-card class="text-format  rounded-lg rounded-md-xl pa-8 ma-4 pa-md-10 mt-10 mx-lg-auto">
+                    <div ref="subscribe" class="text-h4 text-lg-h2 font-weight-black text-center mb-4 pb-4">
                         Registration
                     </div>
                     <form @submit.prevent="submit">
@@ -79,10 +79,8 @@ const submit = handleSubmit(values => {
 </script>
 
 <style scoped>
-
 .text-format {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.97);
 }
-
 </style>
