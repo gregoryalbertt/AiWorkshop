@@ -25,7 +25,7 @@ const routes = [
         component: () => import("@/views/TheSchedule.vue"),
       },
       {
-        path: "subscribe",
+        path: "register",
         name: "Subscribe",
         component: () => import("@/views/TheForm.vue"),
       },
