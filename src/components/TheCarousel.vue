@@ -6,13 +6,13 @@
             <section>
 
                 <v-row>
-                    <div class="text-h4 text-md-h4 text-lg-h3 text-center mx-auto font-weight-black">
+                    <div class="text-h5 text-md-h4 text-lg-h3 text-center mx-auto font-weight-black">
                         AI EDUCATION DAY
                     </div>
                 </v-row>
 
                 <v-row class="text-center">
- <div class="text-h5 text-md-h4 text-lg-h3 text-center font-weight-black mx-auto">
+                    <div class="text-h6 text-md-h5 text-lg-h5 text-center font-weight-black mx-auto">
                         AT FREIE UNIVERSITÄT BERLIN
                     </div>
                 </v-row>
@@ -27,19 +27,13 @@
 
             <section>
                 <v-row>
-
-                    <div class="text-h5 text-md-h4 text-lg-h4 text-center mx-auto font-weight-black">
-
-
-
+                    <div class="text-h5 text-md-h5 text-lg-h5 text-center mx-auto font-weight-black">
                         JANUARY 18TH, 2024
                     </div>
                 </v-row>
 
                 <v-row>
-
-                    <div class="text-h5 text-md-h4 text-lg-h3 text-center mx-auto">
-
+                    <div class="text-h5 text-md-h6 text-lg-h6 text-center mx-auto">
                         09:30 a.m to 05:30pm
                     </div>
                 </v-row>
@@ -48,25 +42,18 @@
 
             <section>
                 <v-row>
-
-                    <div class="text-h5 text-md-h4 text-lg-h4 font-weight-black">
-
-
+                    <div class="text-h5 text-md-h6 text-lg-h6 font-weight-black">
                         LOCAL
                     </div>
                 </v-row>
 
                 <v-row>
-
-                    <div class="text-body text-md-h6 text-lg-h5 text-center">
-
+                    <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
                         Session I: Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
-
-                    <div class="text-body text-md-h6 text-lg-h5 text-center">
-
+                    <div class="text-body text-md-h6 text-lg-subtitle-1 text-center">
                         Session II: Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
@@ -75,9 +62,7 @@
             <section>
                 <v-row>
                     <v-col>
-
-                        <div class="text-body-2 text-md-h6 text-lg-h5 text-center mx-auto font-weight-black">
-
+                        <div class="text-body-2 text-md-h6 text-lg-h6 text-center mx-auto font-weight-black">
                             FUNDED BY
                         </div>
                     </v-col>
