@@ -65,7 +65,7 @@ const items = ref([
 ])
 
 const submit = handleSubmit(values => {
-    axios.post("https://aiworkshop-69bd8-default-rtdb.firebaseio.com/submissions.jsn", values)
+    axios.post("https://aiworkshop-69bd8-default-rtdb.firebaseio.com/submissions.json", values)
         .then(function (response) {
             Swal.fire({
                 title: "Thank you for registering!",
