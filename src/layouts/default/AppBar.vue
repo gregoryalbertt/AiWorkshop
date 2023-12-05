@@ -9,23 +9,18 @@
       </template>
       <v-list>
         <v-list-item>
-          <router-link :to="{ name: 'Home' }">
-            Home
+          <router-link class="text-decoration-none" :to="{ name: 'Home' }" v-slot="{ isActive }">
+            <a :class="{ 'is-bold': isActive }"> HOME </a>
           </router-link>
         </v-list-item>
         <v-list-item>
-          <router-link :to="{ name: 'Schedule' }">
-            Schedule
+          <router-link class="text-decoration-none" :to="{ name: 'Schedule' }" v-slot="{ isActive }">
+            <a :class="{ 'is-bold': isActive }"> SCHEDULE </a>
           </router-link>
         </v-list-item>
         <v-list-item>
-          <router-link :to="{ name: 'Speakers' }">
-            Speakers
-          </router-link>
-        </v-list-item>
-        <v-list-item>
-          <router-link :to="{ name: 'Subscribe' }">
-            Register
+          <router-link class="text-decoration-none" :to="{ name: 'Subscribe' }" v-slot="{ isActive }">
+            <a :class="{ 'is-bold': isActive }"> REGISTER </a>
           </router-link>
         </v-list-item>
       </v-list>

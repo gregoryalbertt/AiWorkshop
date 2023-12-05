@@ -94,7 +94,7 @@
                         </div>
                         <div class="font-weight-black">
                             Keynote <br>
-                            "Learning Designs in the Time of Artificial Intelligence and Machine Learning" <br>
+                            Learning Designs in the Time of Artificial Intelligence and Machine Learning <br>
                         </div>
                         <div>
                             Prof. Dr. Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University of Pennsylvania
@@ -108,7 +108,7 @@
                         </div><br>
 
                         <div class="text-h6">
-                            16:00 - 18:00
+                            16:00 - 17:00
                         </div>
                         <div>
                             Networking Time <br>
@@ -138,6 +138,7 @@ export default {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.941);
     margin-top: 5%;
+    margin-bottom: 20px;
 }
 
 span {
