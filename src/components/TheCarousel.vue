@@ -12,26 +12,34 @@
                 </v-row>
 
                 <v-row class="text-center">
-                    <div class="text-h5 text-md-h4 text-lg-h3 text-center font-weight-black mx-auto">
+ <div class="text-h5 text-md-h4 text-lg-h3 text-center font-weight-black mx-auto">
                         AT FREIE UNIVERSITÄT BERLIN
                     </div>
                 </v-row>
                 <v-row>
+
                     <div class="text-body text-center mx-auto">
                         With Professor Yasmin B. Kafai (University of Pennsylvania) as keynote speake
+
                     </div>
                 </v-row>
             </section>
 
             <section>
                 <v-row>
+
                     <div class="text-h5 text-md-h4 text-lg-h4 text-center mx-auto font-weight-black">
+
+
+
                         JANUARY 18TH, 2024
                     </div>
                 </v-row>
 
                 <v-row>
+
                     <div class="text-h5 text-md-h4 text-lg-h3 text-center mx-auto">
+
                         09:30 a.m to 05:30pm
                     </div>
                 </v-row>
@@ -40,18 +48,25 @@
 
             <section>
                 <v-row>
+
                     <div class="text-h5 text-md-h4 text-lg-h4 font-weight-black">
+
+
                         LOCAL
                     </div>
                 </v-row>
 
                 <v-row>
+
                     <div class="text-body text-md-h6 text-lg-h5 text-center">
+
                         Session I: Königin-Luise-Str. 24/26
                     </div>
                 </v-row>
                 <v-row>
+
                     <div class="text-body text-md-h6 text-lg-h5 text-center">
+
                         Session II: Fabeckstraße 35 - Room 001
                     </div>
                 </v-row>
@@ -60,7 +75,9 @@
             <section>
                 <v-row>
                     <v-col>
+
                         <div class="text-body-2 text-md-h6 text-lg-h5 text-center mx-auto font-weight-black">
+
                             FUNDED BY
                         </div>
                     </v-col>

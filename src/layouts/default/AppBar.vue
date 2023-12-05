@@ -44,17 +44,17 @@
         <v-col cols="12" sm="12">
           <div class="row mx-auto d-flex justify-center">
 
-            <router-link class="text-decoration-none" :to="{ name: 'Home' }">
-              <h4>HOME</h4>
+            <router-link class="text-decoration-none" :to="{ name: 'Home' } " v-slot="{ isActive }">
+              <a :class="{ 'is-bold': isActive }"> HOME </a>
             </router-link>
-            <router-link class="text-decoration-none" :to="{ name: 'Schedule' }">
-              <h4>SCHEDULE</h4>
+            <router-link class="text-decoration-none" :to="{ name: 'Schedule' }" v-slot="{ isActive }">
+              <a :class="{ 'is-bold': isActive }"> SCHEDULE </a>
             </router-link>
-            <router-link class="text-decoration-none" :to="{ name: 'Speakers' }">
-              <h4>SPEAKERS</h4>
-            </router-link>
-            <router-link class="text-decoration-none" :to="{ name: 'Subscribe' }">
-              <h4>REGISTER</h4>
+            <!-- <router-link class="text-decoration-none" :to="{ name: 'Speakers' }" v-slot="{ isActive }">
+              <a :class="{ 'is-bold': isActive }"> SPEAKERS </a>
+            </router-link>-->
+            <router-link class="text-decoration-none" :to="{ name: 'Subscribe' }" v-slot="{ isActive }">
+              <a :class="{ 'is-bold': isActive }"> REGISTER </a>
             </router-link>
 
           </div>
@@ -102,16 +102,14 @@ bring-back {
   z-index: -1;
 }
 
-.router-link-exact-active h4 {
-  /* background-color: rgb(188, 188, 188); */
-  text-decoration: underline;
+a{
+  padding: 1rem;
+  color: black;
+}
+.router-link-exact-active {
+  padding: 1rem;
+  color: black;
   font-weight: bold;
 }
 
-h4 {
-  padding: 1rem;
-  color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
 </style>
