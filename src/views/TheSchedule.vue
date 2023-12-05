@@ -97,14 +97,14 @@
                             "Learning Designs in the Time of Artificial Intelligence and Machine Learning" <br>
                         </div>
                         <div>
-                            Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University of Pennsylvania
+                            Prof. Dr. Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University of Pennsylvania
                         </div><br>
 
                         <div class="text-h6">
                             15:15 -16:00
                         </div>
                         <div>
-                            Discussion and questions.
+                            Discussion and Questions
                         </div><br>
 
                         <div class="text-h6">
