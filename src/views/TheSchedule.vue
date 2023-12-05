@@ -1,6 +1,8 @@
 <template>
-    <v-card color="rgb(0,0,0, 0.5)" class="h-100">
-        <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg">
+        <v-main class="background-image">
+        <v-container>
+        <!-- <v-card color="rgb(0,0,0, 0.5)" class="h-100">
+        <v-img gradient="to bottom, rgba(0,0,0,.2), rgba(255,255,255,.2)" class="background" src="/fu-university.jpeg"> -->
             <v-row>
 
                 <v-col class="pr-0" cols="12" sm="6">
@@ -12,7 +14,7 @@
                         <div class="text-subtitle-1 font-weight-black text-center">
                             Königin-Luise-Straße 24/26, Freie Universität Berlin
                         </div><br>
-
+ 
                         <div class="text-h6">
                             09:30 - 10:00
                         </div>
@@ -119,8 +121,10 @@
                     </v-card>
                 </v-col>
             </v-row>
-        </v-img>
-    </v-card>
+        <!-- </v-img>
+    </v-card> -->
+    </v-container>
+    </v-main>
 </template>
 
 <script>
@@ -130,6 +134,17 @@ export default {
 </script>
 
 <style scoped>
+
+.background-image {
+  background-image: url('/fu-university.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
 .background {
     background-color: white;
 }
