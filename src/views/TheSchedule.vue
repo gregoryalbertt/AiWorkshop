@@ -6,7 +6,7 @@
             <v-row>
 
                 <v-col class="pr-0" cols="12" sm="6">
-                    <v-card class="text-format rounded-xl mt-10 ml-10 mr-5 pa-8">
+                    <v-card class="text-format rounded-xl mt-5 ml-5 mr-8 mt-lg-10 ml-lg-10 mr-lg-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session I
                         </div>
@@ -82,7 +82,7 @@
                     </v-card>
                 </v-col>
                 <v-col class="pl-0" cols="12" sm="6">
-                    <v-card class="text-format rounded-xl mt-10 mr-10 ml-5 pa-8">
+                    <v-card class="text-format rounded-xl mt-5 ml-8 mr-5 mt-lg-10 mr-lg-10 ml-lg-5 pa-8">
                         <div class="text-h3 font-weight-black text-center">
                             Session II
                         </div>
@@ -99,7 +99,8 @@
                             Learning Designs in the Time of Artificial Intelligence and Machine Learning <br>
                         </div>
                         <div>
-                            Prof. Dr. Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the University of Pennsylvania
+                            Prof. Dr. Yasmin B. Kafai - Distinguished Professor in the Graduate School of Education at the
+                            University of Pennsylvania
                         </div><br>
 
                         <div class="text-h6">
