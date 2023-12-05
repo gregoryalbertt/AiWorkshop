@@ -138,6 +138,7 @@ export default {
     color: rgb(0, 0, 0);
     background-color: rgba(245, 245, 245, 0.941);
     margin-top: 5%;
+    margin-bottom: 20px;
 }
 
 span {

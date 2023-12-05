@@ -158,6 +158,7 @@ export default {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 section {
